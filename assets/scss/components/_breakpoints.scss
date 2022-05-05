@@ -1,0 +1,104 @@
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile {
+    &__info {
+      column-gap: 1.5rem;
+    }
+
+    &__buttons {
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+
+    .skills__box {
+      column-gap: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .projects__content {
+    grid-template-columns: 332px;
+    justify-content: center;
+  }
+
+  .filters__content {
+    width: 332px;
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .projects__content,
+  .skills__content {
+    grid-template-columns: repeat(2, 332px);
+  }
+
+  .skills__content {
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    margin: auto;
+  }
+
+  .change-theme {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+
+  .profile {
+    padding: 4rem;
+  }
+
+  .profile__border {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 1rem;
+
+    img {
+      width: 113px;
+      height: 113px;
+    }
+  }
+
+  .profile__profession {
+    margin-bottom: 1.5rem;
+  }
+
+  .profile__info {
+    column-gap: 3rem;
+
+    &-description {
+      font-size: small;
+    }
+  }
+
+  .profile__buttons {
+    column-gap: 2rem;
+  }
+
+  .projects__content {
+    gap: 2rem 3rem;
+  }
+
+  .projects__modal {
+    padding: 1.5rem;
+  }
+
+  .skills__title {
+    font-size: normal;
+    margin-bottom: 2.5rem;
+  }
+
+  .footer__copy {
+      margin: 4.5rem 0 2.5rem;
+  }
+}

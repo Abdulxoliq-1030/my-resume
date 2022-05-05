@@ -1,0 +1,34 @@
+//   Buttons
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: #4e9bdb;
+  color: #fff;
+  padding: 1.15rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+
+  i {
+    font-size: 1.25rem;
+  }
+
+  &:hover {
+    background-color: #2795f8;
+  }
+
+  &__small {
+    padding: 0.75rem;
+    box-shadow: none;
+  }
+
+  &__gray {
+    background-color: #d9dcdc;
+    color: #162e41;
+
+    &:hover {
+      background-color: #b1b5b6;
+    }
+  }
+}
+//   Buttons

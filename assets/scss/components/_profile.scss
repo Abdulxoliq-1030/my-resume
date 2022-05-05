@@ -1,0 +1,106 @@
+// Profile section
+
+.profile {
+  position: relative;
+  padding-top: 3.5rem;
+
+  &__container {
+    row-gap: 2rem;
+  }
+
+  &__data {
+    display: grid;
+    text-align: center;
+  }
+
+  &__perfil {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+
+  &__border {
+    border: 3.5px solid #4e9bdb;
+    justify-self: center;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  &__name {
+    font-size: var(--h2-font-size);
+  }
+
+  &__profession {
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #3c3636;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.75rem;
+  }
+
+  &__social-link {
+    font-size: 1.25rem;
+    color: #583f2b;
+    transition: 0.3s;
+
+    &:hover {
+      color: #638ea9;
+    }
+  }
+
+  &__info {
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    column-gap: 2.5rem;
+  }
+
+  &__info-group {
+    text-align: center;
+  }
+
+  &__info-number {
+    font-size: var(--normal-number);
+    margin-bottom: 0.25rem;
+  }
+
+  &__info-description {
+    font-size: var(--smaller-font-size);
+    font-weight: 500;
+  }
+
+  &__buttons,
+  &__buttons-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__buttons {
+    column-gap: 1rem;
+  }
+
+  &__buttons-small {
+      column-gap: .25rem;
+  }
+}
+// Profile section
+
+
+// Main section
+
+// Main section
